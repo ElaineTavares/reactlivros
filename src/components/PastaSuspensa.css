@@ -1,0 +1,24 @@
+.pasta_suspensa{
+    width: 100%;
+}
+
+.pasta_suspensa label{
+    display: block;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.pasta_suspensa select{
+    padding: 30px 15px;
+    width: 100%;
+    outline: none;
+    font-size: 1.5rem;
+}
+
+
+@media (max-width: 672px){
+    .pasta_suspensa label{
+        font-size: 1.5rem;   
+    }
+}
+

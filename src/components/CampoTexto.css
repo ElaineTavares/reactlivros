@@ -1,0 +1,32 @@
+.campo_texto{
+    width: 100%;
+}
+
+.campo_texto label{
+    display: block;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.campo_texto input{
+    padding: 30px 15px;
+    width: 100%;
+    outline: none;
+    font-size: 1.5rem;
+}
+
+.campo_texto input::placeholder{
+    font-size: 1.5rem;
+}
+
+@media (max-width: 672px){
+    .campo_texto label{
+        font-size: 1.5rem;   
+    }
+
+    .campo_texto input::placeholder{
+        font-size: 1rem;
+    }
+
+
+}

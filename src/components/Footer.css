@@ -1,0 +1,66 @@
+.footer{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-flow:column;
+    gap: 15px;
+    /* background-color: #7b8584; */
+    background-color: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    padding-block: 50px;
+    margin-top: 100px;
+}
+
+
+.footer h5{
+    color: #000005;
+    font-size: 3rem;
+    text-shadow: 10px 10px 12px #ffffff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.footer .whats {
+    width: 40px;
+    background-color: #0cc143;
+    border-radius: 50%;
+    animation: whatsIsBouncing 1s ease-in alternate infinite;
+}
+
+@keyframes whatsIsBouncing {
+    to {
+        transform: translateY(30px);
+    }
+}
+
+
+.footer a{
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+    text-shadow: 10px 10px 12px #ffffff;
+    font-weight: bold;
+
+}
+
+@media (max-width:990px){
+    .footer h5{
+        font-size: 2rem;  
+    }
+}
+
+@media (max-width:672px){
+    .footer h5{
+        font-size: 1.5rem;  
+    }
+
+    .footer a{
+        text-decoration: none;
+        font-size: 20px;
+        color: black;
+        text-shadow: 10px 10px 12px #ffffff;
+        font-weight: bold;  
+    }
+}

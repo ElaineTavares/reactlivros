@@ -1,0 +1,38 @@
+.secao_formulario{
+    padding-block: 100px;
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+    /* background-image: url('../../public/background.jpeg'); */  
+}
+
+.secao_formulario h2{
+    font-size: 3rem;
+    margin-bottom: 30px;
+}
+
+.secao_formulario form{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    width: 60%;
+    padding: 60px;
+    background-color: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 18px;
+}
+
+@media (max-width: 990px){
+    .secao_formulario form{
+        width: 90%;
+    }
+}
+
+@media (max-width: 672px){
+    .secao_formulario form{
+        padding: 30px;        
+    }
+}

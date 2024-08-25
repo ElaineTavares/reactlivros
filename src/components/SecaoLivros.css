@@ -1,0 +1,51 @@
+.secao_livros{
+    /* border: 2px solid #ffffff; */
+    display: flex;
+    justify-content: center;
+    padding-block: 30px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 50px;
+    padding-inline: 40px;
+    position: relative;
+}
+
+.secao_livros h2{
+    font-size: 3rem;
+    width: 100%;
+    margin-block: 20px;
+}
+
+.input_color{
+    position: absolute;
+    right: 50px;
+    top: 50px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;  
+    gap: 5px;
+}
+
+.input_color input{
+    cursor: pointer;
+}
+
+.input_color h4{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+@media (max-width: 990px){
+    .input_color{
+        right: 70px;      
+    }
+}
+
+@media (max-width: 672px){
+    .input_color{
+        right: 150px;
+        top: 120px;   
+    }
+}

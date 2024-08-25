@@ -1,0 +1,17 @@
+.botao_criar_card{
+    background-color: #f5f8f3;
+    padding: 30px;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 12px;
+    transition:.5s ease;
+    margin-top: 30px;
+    font-weight: bold;
+
+}
+
+.botao_criar_card:hover{
+    background-color: #78582f;
+    color: #f5f8f3;
+}

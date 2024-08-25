@@ -1,0 +1,47 @@
+.card{
+    border: 2px solid #ffffff;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 10px 10px 30px #ffffff;
+    position: relative;
+    width: 282px;
+}
+
+.card img{
+    width: 100%;
+    height: 25s0px;
+    object-fit: cover;
+}
+
+.card .botao_deletar_card{
+    position: absolute;
+    top: -30px;
+    right: -1px;
+    cursor: pointer;
+}
+
+.card .cabecalho{
+    padding: 15px;
+    width: 100%;
+}
+
+.card .rodape{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 10px;
+}
+
+@media (max-width: 990px){
+    .card{
+        margin-bottom: 30px;
+    }
+}
